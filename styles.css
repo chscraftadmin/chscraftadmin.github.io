@@ -10,6 +10,7 @@ h1 {
     display: flex;
     flex-direction: column; 
     width: 60%;
+    overflow: auto;
     justify-content: center;
     margin: 0 auto;
     background-color: rgb(180, 220, 255);
@@ -28,7 +29,8 @@ h1 {
     align-self: center;
     display: flex;
     flex-direction: row;
-    margin-bottom: 5px;
+    margin-bottom: 5px;    
+    overflow-x:auto;
 }
 .tabs div {
     margin: 1px;
@@ -52,6 +54,7 @@ h1 {
     height: 300px;
     justify-content: center;
     padding: 2px;
+    overflow-x: auto;
 }
 .body div header {
     align-self: center;
@@ -108,8 +111,11 @@ p {
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
-  div {
+@media only screen and (max-width: 700px) {
+  .mobile {
     display: block;
+  }
+  div {
+    display: none;
   }
 }
