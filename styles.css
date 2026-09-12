@@ -32,6 +32,34 @@ h1 {
     margin-bottom: 5px;    
     overflow-x:auto;
 }
+.neck {
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    margin-bottom: 8px;
+}
+.neck div {
+    border: 2px solid blue;
+    background-color: rgb(180, 220, 255);
+    margin: 4px;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    padding: 2px;
+    overflow-x: none;
+    align-items: center;
+}
+.neck div header {
+    align-self: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+}
+.neck div p {
+    align-self: center;
+    font-size: 15px;
+}
 .tabs div {
     margin: 1px;
     padding: 4px;
